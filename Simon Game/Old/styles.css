@@ -1,0 +1,43 @@
+body {
+  background-color: #7882A4;
+  box-sizing: border-box;
+}
+
+.text{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 16rem 16rem;
+  grid-template-rows: 16rem 16rem;
+  justify-content: center;
+}
+
+.box {
+  margin: 2rem;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: red;
+}
+
+.box3 {
+  background-color: yellow;
+}
+
+.box4 {
+  background-color: blue;
+}
+
+.lighter {
+  opacity: 50%;
+  border: 15px solid #fff;
+}

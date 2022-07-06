@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #789395;
+  font-family: 'Amatic SC', cursive;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  font-size: 3rem;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice1, .dice2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 5% 2%;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: #9c060c;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #9c060c;
+}
+
+h3 {
+  margin: 1rem auto;
+  font-size: 2rem;
+  color: #E5E3C9;
+}

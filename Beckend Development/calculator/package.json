@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Hesap Mak",
+  "main": "calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Furkan Nazlı",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
